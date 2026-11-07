@@ -1,0 +1,22 @@
+# data - download from Kaggle (see data/README.md)
+data/*.csv
+data/*.zip
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# saved models
+models/
+*.pkl
+*.joblib
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
